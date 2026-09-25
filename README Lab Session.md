@@ -1,3 +1,6 @@
+Nama: Fatih Atha Hayaa
+NIM: L0325024
+
 Program ini adalah simulasi kasir minimarket sederhana berbasis console. Program menyimpan daftar produk (nama, harga, dan stok) di dalam sebuah ArrayList. Pengguna memilih satu produk dan memasukkan jumlah yang ingin dibeli, lalu program menghitung total harga (sudah termasuk PPN 11%) dan mengurangi stok produk yang bersangkutan.
 
 Contoh Output
