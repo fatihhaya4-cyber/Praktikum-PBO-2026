@@ -1,1 +1,21 @@
+===== LAPORAN NILAI SISWA =====
+No   Nama                 Nilai    Status      
+-------------------------------------------------
+1    andi                 78,00    Lulus       
+2    dion                 75,00    Lulus       
+3    ayra                 82,00    Lulus       
+4    yola                 77,00    Lulus       
+5    weda                 80,00    Lulus       
+6    deva                 89,00    Lulus       
+7    dera                 93,00    Lulus       
+8    aqil                 73,00    Lulus       
+9    pablo                84,00    Lulus       
+10   kavi                 77,00    Lulus       
+11   rere                 83,00    Lulus       
+12   abian                100,00   Lulus       
+13   maya                 99,00    Lulus       
+-------------------------------------------------
+Rata-rata nilai kelas : 83,85
+Jumlah siswa lulus    : 13
+Jumlah tidak lulus    : 0
 
