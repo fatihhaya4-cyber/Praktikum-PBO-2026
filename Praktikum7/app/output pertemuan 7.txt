@@ -1,0 +1,188 @@
+=== PROGRAM PENGELOLAAN NILAI MAHASISWA ===
+Masukkan jumlah mahasiswa: 22
+
+--- Data Mahasiswa ke-1 ---
+Nama  : Doma
+NIM   : K33201
+Nilai : 89
+[ERROR NIM] NIM hanya boleh berisi angka! Ditemukan karakter 'K'
+
+--- Data Mahasiswa ke-1 ---
+Nama  : Kadi
+NIM   : 33202
+Nilai : 98
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-2 ---
+Nama  : dodi
+NIM   : 33203
+Nilai : 78
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-3 ---
+Nama  : polin
+NIM   : 33204
+Nilai : 88
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-4 ---
+Nama  : udin
+NIM   : 33205
+Nilai : 76
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-5 ---
+Nama  : yaya
+NIM   : 33206
+Nilai : 77
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-6 ---
+Nama  : ying
+NIM   : 33207
+Nilai : 66
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-7 ---
+Nama  : bayu
+NIM   : 89
+Nilai : ss slkms
+[ERROR] Nilai harus berupa angka!
+
+--- Data Mahasiswa ke-7 ---
+Nama  : yudo
+NIM   : 33207
+Nilai : 75
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-8 ---
+Nama  : george
+NIM   : 33208
+Nilai : 65
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-9 ---
+Nama  : hendra
+NIM   : 33209
+Nilai : 83
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-10 ---
+Nama  : rey
+NIM   : 33210
+Nilai : 73
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-11 ---
+Nama  : ovi
+NIM   : 33211
+Nilai : 93
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-12 ---
+Nama  : eka
+NIM   : 33212
+Nilai : 77
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-13 ---
+Nama  : jeje
+NIM   : 33213
+Nilai : 82
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-14 ---
+Nama  : dinan
+NIM   : 33214
+Nilai : 75
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-15 ---
+Nama  : riski
+NIM   : 33215
+Nilai : 87
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-16 ---
+Nama  : cantika
+NIM   : 85
+Nilai : damar
+[ERROR] Nilai harus berupa angka!
+
+--- Data Mahasiswa ke-16 ---
+Nama  : damar
+NIM   : 72
+Nilai : l;ll
+[ERROR] Nilai harus berupa angka!
+
+--- Data Mahasiswa ke-16 ---
+Nama  : santi
+NIM   : 33216
+Nilai : 79
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-17 ---
+Nama  : wisnu
+NIM   : 33217
+Nilai : 98
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-18 ---
+Nama  : haruka
+NIM   : 33218
+Nilai : 84
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-19 ---
+Nama  : fajri
+NIM   : 33219
+Nilai : 92
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-20 ---
+Nama  : tari
+NIM   : 33220
+Nilai : 71
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-21 ---
+Nama  : diska
+NIM   : 33221
+Nilai : 87
+Data berhasil ditambahkan.
+
+--- Data Mahasiswa ke-22 ---
+Nama  : ayu
+NIM   : 33222
+Nilai : 81
+Data berhasil ditambahkan.
+
+=== REKAPITULASI ===
+33202        | KADI                      |  98,00 | A     | LULUS
+33203        | DODI                      |  78,00 | B     | LULUS
+33204        | POLIN                     |  88,00 | A     | LULUS
+33205        | UDIN                      |  76,00 | B     | LULUS
+33206        | YAYA                      |  77,00 | B     | LULUS
+33207        | YING                      |  66,00 | C     | TIDAK LULUS
+33207        | YUDO                      |  75,00 | B     | LULUS
+33208        | GEORGE                    |  65,00 | C     | TIDAK LULUS
+33209        | HENDRA                    |  83,00 | B     | LULUS
+33210        | REY                       |  73,00 | B     | LULUS
+33211        | OVI                       |  93,00 | A     | LULUS
+33212        | EKA                       |  77,00 | B     | LULUS
+33213        | JEJE                      |  82,00 | B     | LULUS
+33214        | DINAN                     |  75,00 | B     | LULUS
+33215        | RISKI                     |  87,00 | A     | LULUS
+33216        | SANTI                     |  79,00 | B     | LULUS
+33217        | WISNU                     |  98,00 | A     | LULUS
+33218        | HARUKA                    |  84,00 | B     | LULUS
+33219        | FAJRI                     |  92,00 | A     | LULUS
+33220        | TARI                      |  71,00 | B     | LULUS
+33221        | DISKA                     |  87,00 | A     | LULUS
+33222        | AYU                       |  81,00 | B     | LULUS
+Jumlah mahasiswa : 22
+Rata-rata nilai  : 81,14
+Lulus / Tidak    : 20 / 2
+
+Laporan berhasil disimpan ke laporan_nilai.txt
+Proses penyimpanan selesai.
