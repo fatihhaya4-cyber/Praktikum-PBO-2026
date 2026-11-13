@@ -1,1 +1,119 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package laporannilai;
+
+/**
+ *
+ * @author HYPE AMD
+ */
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class LaporanNilai {
+
+    static final String NAMA_FILE = "laporan_nilai.txt";
+    static final double NILAI_LULUS = 70.0;
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Langkah 1: input dari konsol, lalu tulis ke file
+        System.out.print("Masukkan jumlah siswa: ");
+        int jumlah = Integer.parseInt(input.nextLine().trim());
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(NAMA_FILE))) {
+            tulisHeader(writer);
+
+            double totalNilai = 0;
+            int jumlahLulus = 0;
+            int jumlahTidakLulus = 0;
+
+            for (int i = 1; i <= jumlah; i++) {
+                System.out.println("\nData siswa ke-" + i);
+                System.out.print("Nama  : ");
+                String nama = input.nextLine().trim();
+
+                System.out.print("Nilai : ");
+                double nilai = Double.parseDouble(input.nextLine().trim());
+
+                // Tentukan status kelulusan langsung di dalam loop
+                String status;
+                if (nilai >= NILAI_LULUS) {
+                    status = "Lulus";
+                    jumlahLulus++;
+                } else {
+                    status = "Tidak Lulus";
+                    jumlahTidakLulus++;
+                }
+
+                totalNilai += nilai;
+                tulisDataSiswa(writer, i, nama, nilai, status);
+            }
+
+            double rataRata = (jumlah > 0) ? totalNilai / jumlah : 0;
+            tulisRingkasan(writer, rataRata, jumlahLulus, jumlahTidakLulus);
+
+            System.out.println("\nData berhasil ditulis ke " + NAMA_FILE);
+
+        } catch (IOException e) {
+            System.out.println("Gagal menulis file: " + e.getMessage());
+            return;
+        } catch (NumberFormatException e) {
+            System.out.println("Input tidak valid, harap masukkan angka yang benar.");
+            return;
+        }
+
+        // Langkah 2: baca kembali isi file dan tampilkan ke konsol
+        bacaDanTampilkanFile();
+
+        input.close();
+    }
+
+    static void tulisHeader(BufferedWriter writer) throws IOException {
+        writer.write("===== LAPORAN NILAI SISWA =====");
+        writer.newLine();
+        writer.write(String.format("%-4s %-20s %-8s %-12s", "No", "Nama", "Nilai", "Status"));
+        writer.newLine();
+        writer.write("-------------------------------------------------");
+        writer.newLine();
+    }
+
+    static void tulisDataSiswa(BufferedWriter writer, int no, String nama,
+                               double nilai, String status) throws IOException {
+        writer.write(String.format("%-4d %-20s %-8.2f %-12s", no, nama, nilai, status));
+        writer.newLine();
+    }
+
+    static void tulisRingkasan(BufferedWriter writer, double rataRata,
+                               int lulus, int tidakLulus) throws IOException {
+        writer.write("-------------------------------------------------");
+        writer.newLine();
+        writer.write(String.format("Rata-rata nilai kelas : %.2f", rataRata));
+        writer.newLine();
+        writer.write("Jumlah siswa lulus    : " + lulus);
+        writer.newLine();
+        writer.write("Jumlah tidak lulus    : " + tidakLulus);
+        writer.newLine();
+    }
+
+    static void bacaDanTampilkanFile() {
+        System.out.println("\n===== ISI FILE " + NAMA_FILE + " =====");
+
+        // Langkah 2 & 3: BufferedReader + try-with-resources
+        try (BufferedReader reader = new BufferedReader(new FileReader(NAMA_FILE))) {
+            String baris;
+            while ((baris = reader.readLine()) != null) {
+                System.out.println(baris);
+            }
+        } catch (IOException e) {
+            System.out.println("Gagal membaca file: " + e.getMessage());
+        }
+    }
+}
 
