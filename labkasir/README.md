@@ -122,10 +122,10 @@ Tambahkan hasil tangkap layar di folder `screenshots/` lalu rujuk di sini.
 
 | Tahap | Screenshot |
 |---|---|
-| Tahap 1 (output konsol) | `![Tahap 1](screenshots/tahap1.png)` |
-| Tahap 2 (output thread) | `![Tahap 2](screenshots/tahap2.png)` |
-| Tahap 3 (GUI, total 63.000) | `![Tahap 3](screenshots/tahap3.png)` |
-| Tahap 4 (status cetak) | `![Tahap 4](screenshots/tahap4.png)` |
+| Tahap 1 (output konsol) | <img width="316" height="80" alt="Screenshot 2026-11-20 195656" src="https://github.com/user-attachments/assets/08560b92-2675-44c5-af5f-97ccc1309267" /> |
+| Tahap 2 (output thread) | <img width="281" height="176" alt="Screenshot 2026-11-20 195713" src="https://github.com/user-attachments/assets/cad3ccf2-76aa-48f3-b6ca-c4891f514cfb" /> |
+| Tahap 3 (GUI, total 63.000) | <img width="282" height="329" alt="Screenshot 2026-11-20 200055" src="https://github.com/user-attachments/assets/fa5111bc-78c1-4b77-8bfd-77dbb802e727" /> |
+| Tahap 4 (status cetak) | <img width="287" height="327" alt="Screenshot 2026-11-20 200251" src="https://github.com/user-attachments/assets/22fc2661-4d17-4d7b-b4e5-ecd15666502c" /> <img width="288" height="324" alt="Screenshot 2026-11-20 200118" src="https://github.com/user-attachments/assets/d354290b-bd7f-4ad0-ab3e-3844fe44fc1f" /> |
 
 ## Konsep yang Dipelajari
 
